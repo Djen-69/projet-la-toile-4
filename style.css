@@ -1,0 +1,21 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: "Nunito", sans-serif;
+}
+
+html{
+    background-color: black;
+}
+
+body {
+    color: white;
+}
+
+.blanc{
+    color: bisque;
+}
+.imagesite{
+    background-image:image(image\site de bijou.webp);
+}
