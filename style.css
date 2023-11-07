@@ -3,19 +3,70 @@
 	margin: 0;
 	padding: 0;
 	font-family: "Nunito", sans-serif;
+    /* background-color: black; */
 }
 
-html{
-    background-color: black;
-}
 
 body {
-    color: white;
+    color: rgb(242, 239, 239);
+    
 }
 
+nav, nav li{
+    background:rgba(0,0,0,0) !important;
+}
+
+article{
+    /* background-image: url("image/pendentif-diamant-goutte-d-amour.jpg"); */
+    /* height: 450px; */
+}
+
+article img{
+    width: 400px;
+}
+
+
+
 .blanc{
-    color: bisque;
+    color: rgb(220, 184, 140);
 }
-.imagesite{
-    background-image:image(image\site de bijou.webp);
+.image{
+    background-image:url("image/site de bijou.webp");
+    height:100vh;
+    background-size: cover;
 }
+.carte{
+    width: 400px;
+    height: 10px;
+    /* background-color: black; */
+    
+    
+}
+.titre {
+    text-align: center;
+}
+.prix{
+    
+    
+}
+.centrer{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+footer {
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.border img{
+    border-radius: 16px;
+
+}
+
